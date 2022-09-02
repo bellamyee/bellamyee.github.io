@@ -6,7 +6,12 @@ function App({ Component, pageProps }) {
   return(
     <>
         <Head>
-            <meta name="color-scheme" content="light only"/>
+            <meta name="theme-color"
+                  content="#f5f5f7"
+                  media="(prefers-color-scheme: light)" />
+            <meta name="theme-color"
+                  content="#f5f5f7"
+                  media="(prefers-color-scheme: dark)" />
         </Head>
         <MainLayout>
             <Component {...pageProps} />
