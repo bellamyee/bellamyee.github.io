@@ -2,11 +2,9 @@ import Link from "next/link";
 import styles from "./styles.module.css"
 
 const NavMenu = ({menuName, link}) =>
-    <Link href = {link}>
-        <a className={styles.navMenu}>
-            <h2>
-                {menuName}
-            </h2>
-        </a>
-    </Link>
+        <div className={styles.navMenu}>
+            <Link href = {link} className={styles.navMenu}>
+             <a>{menuName}</a>
+            </Link>
+        </div>
 export default NavMenu

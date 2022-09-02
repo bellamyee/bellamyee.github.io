@@ -1,0 +1,17 @@
+.logoBox {
+    position:relative;
+    flex: 2;
+}
+
+.image{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(50%);
+    transition:0.5s
+}
+
+.image:hover {
+    filter: grayscale(0%);
+}
