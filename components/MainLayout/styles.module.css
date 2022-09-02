@@ -10,3 +10,11 @@
     background-color:#f5f5f7;
     transform: translateY(6vh);
 }
+
+@media (prefers-color-scheme: light) {
+    /* 라이트 모드에 적용할 스타일 정의 */
+}
+
+@media (prefers-color-scheme: dark) {
+    /* 라이트 모드에 적용할 스타일 정의 */
+}

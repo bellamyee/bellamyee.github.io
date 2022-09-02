@@ -7,7 +7,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #000;
+  color: #000000;
   background-color:#ffffff;
 }
 
@@ -22,12 +22,10 @@ a {
   padding: 0;
 }
 
+@media (prefers-color-scheme: light) {
+  /* 라이트 모드에 적용할 스타일 정의 */
+}
+
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+  /* 라이트 모드에 적용할 스타일 정의 */
 }
