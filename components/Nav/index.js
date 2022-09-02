@@ -6,11 +6,10 @@ const Nav = () =>
     <div className={styles.header}>
         <div className={styles.navContent}>
             <Logo />
-            <NavMenu menuName="careers" link="careers" />
-            <NavMenu menuName="careers" link="careers" />
-            <NavMenu menuName="careers" link="careers" />
-            <NavMenu menuName="careers" link="careers" />
-
+            <NavMenu menuName="posts" link="careers" />
+            <NavMenu menuName="portfolio" link="careers" />
+            <NavMenu menuName="books" link="careers" />
+            <NavMenu menuName="about" link="careers" />
         </div>
     </div>
 export default Nav

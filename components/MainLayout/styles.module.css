@@ -4,5 +4,9 @@
 }
 
 .mainContainer {
-    padding: 50px;
+    padding: 20px;
+    margin: 20px;
+    min-height: 800px;
+    background-color:#f5f5f7;
+    transform: translateY(6vh);
 }
