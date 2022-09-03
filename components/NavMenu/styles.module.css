@@ -28,3 +28,10 @@
 @media (prefers-color-scheme: dark) {
     /* 라이트 모드에 적용할 스타일 정의 */
 }
+
+@media (max-width: 900px) {
+    .navMenu {
+        display:none;
+    }
+}
+

@@ -6,6 +6,7 @@ function App({ Component, pageProps }) {
   return(
     <>
         <Head>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" />
             <meta name="theme-color"
                   content="#f5f5f7"
                   media="(prefers-color-scheme: light)" />
