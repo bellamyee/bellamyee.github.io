@@ -1,7 +1,7 @@
 .header {
     height: 6vh;
     padding-left: max(10px,env(safe-area-inset-left));
-    padding-right: max(30px,env(safe-area-inset-right));
+    padding-right: max(10px,env(safe-area-inset-right));
     background: rgba(0,0,0,0.8);
     width: 100%;
     text-align: center;

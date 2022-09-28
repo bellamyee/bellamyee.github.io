@@ -1,6 +1,7 @@
 .logoBox {
     position:relative;
     flex: 2;
+    transform: translateX(-24px);
 }
 
 .image{
