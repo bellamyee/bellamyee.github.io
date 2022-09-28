@@ -8,10 +8,10 @@ const Nav = () =>
         <div className={styles.navContent}>
             <MenuIcon />
             <Logo />
-            <NavMenu menuName="posts" link="careers" />
-            <NavMenu menuName="portfolio" link="careers" />
-            <NavMenu menuName="books" link="careers" />
-            <NavMenu menuName="about" link="careers" />
+            <NavMenu menuName="posts" link="posts" />
+            <NavMenu menuName="portfolio" link="portfolio" />
+            <NavMenu menuName="books" link="books" />
+            <NavMenu menuName="about" link="about" />
         </div>
     </div>
 export default Nav
