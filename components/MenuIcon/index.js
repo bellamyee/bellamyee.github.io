@@ -1,8 +1,11 @@
 import styles from "./styles.module.css"
-import Image from 'next/image'
-import Link from 'next/link'
+import { Squash as Hamburger } from 'hamburger-react'
+import {useRecoilState} from "recoil";
+import {isMenuOpenedState} from "../States/states";
 
-const MenuIcon = () =>
-    <Link href={"careers"}><i className={`bi bi-list white ${styles.menuIcon}`}></i></Link>
+const MenuIcon = () => {
+    const [isMenuOpened, setMenuOpen] = useRecoilState(isMenuOpenedState)
+    return <span className={styles.menuIcon}><Hamburger size={"25"} color="white" toggled={isMenuOpened} toggle={setMenuOpen} /></span>
+}
 
 export default MenuIcon
