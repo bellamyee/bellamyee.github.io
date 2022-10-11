@@ -10,12 +10,15 @@
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add -f out/ && git checkout -b temp-for-deploy-gh-pages && git commit -m \"Deploy Next.js to gh-pages\" && git subtree split --prefix out -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages && git checkout main && git branch -D temp-for-deploy-gh-pages"
   },
   "dependencies": {
+    "@tinymce/tinymce-react": "^4.2.0",
     "bootstrap-icons": "^1.9.1",
+    "fs-extra": "^10.1.0",
     "hamburger-react": "^2.5.0",
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "recoil": "^0.7.5"
+    "recoil": "^0.7.5",
+    "tinymce": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "8.23.0",
