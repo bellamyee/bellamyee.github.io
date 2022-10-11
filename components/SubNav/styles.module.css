@@ -1,7 +1,7 @@
 .subNavContainer {
     position: fixed;
     background: rgba(0,0,0,0.9);
-    height: 100vh;
+    height: 40vh;
     width: 100vw;
     overflow: hidden;
     opacity: 1;
